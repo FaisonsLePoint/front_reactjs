@@ -51,7 +51,7 @@ Ce projet démarre en mode développement avec la commande (craco est utilisé i
 npm run starto
 ```
 
-Pour construire et générer les fichier html css et js, vous avez la commande (la génération se fera dnas le dossier build)
+Pour construire et générer les fichier html css et js, vous avez la commande (la génération se fera dans le dossier build)
 
 ```
 npm run build
