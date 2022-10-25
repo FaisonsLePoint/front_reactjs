@@ -17,4 +17,16 @@ Axios.interceptors.request.use(request => {
     return request
 })
 
+// Intercepteur de réponse API pour vérification de la session
+Axios.interceptors.response.use(response => {
+    return response
+}, error => {
+    if(error.response.status === 401){
+        accountService.logout()
+        window.location = '/auth/login'
+    }else{
+        return Promise.reject(error)
+    }
+})
+
 export default Axios
