@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Cocktail - Front End ReactJS 18
+</div>
 
-## Available Scripts
+<p align="center">
+<a href="https://www.youtube.com/c/faisonslepoint" target="_blank" style="font-size:22px">FaisonsLePoint</a>
+<br><br>
+</p>
+<p align="center">
+    <img src="https://img.shields.io/badge/React-v18.2.0-blue">
+    <img src="https://img.shields.io/badge/React--Router-6.3.0-blue">
+    <img src="https://img.shields.io/badge/license-MIT-green">
+    <img src="https://img.shields.io/badge/build-passing-brightgreen">
+    <img src="https://img.shields.io/badge/node--lts-16.15.1-brightgreen">
+    <img src="https://img.shields.io/badge/npm-8.13.2-blue">
+    <img alt="YouTube Channel Views" src="https://img.shields.io/youtube/channel/views/UC0WQ4H6f2W14eS45bRDfp1Q?style=social">
+  <br><br><br>
+</p>
 
-In the project directory, you can run:
+# A propos
+Ce projet est le front de l'applicatif Cocktail. Il s'agit d'un exercice de réalisation de projet.
 
-### `npm start`
+Projet lancer avec le [Create React App](https://github.com/facebook/create-react-app).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Fonctionnalitées
+- Applicatif en 2 parties. Une partie publique et une privée pour la gestion des données
+- Manipulation des données avec une API Rest
+- Utilisation du Json Web Token pour les sessions
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Pré-requis
+Pour fonctionner correctement ce projet utilise une API Rest
+[https://github.com/FaisonsLePoint/api_rest_express](https://github.com/FaisonsLePoint/api_rest_express) 
 
-### `npm test`
+# Vidéos
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+La réalisation de cet applicatif est entièrement disponible en vidéo sur la chaine
+[FaisonLePoint - Playlist ReactJS](https://www.youtube.com/watch?v=5Flc4N81wV8&list=PLwJWw4Pbl4w_HNb-5GbpQx6ai5OEEy9pI)
 
-### `npm run build`
+# Installation
+Une fois le dépôt cloné et une fois rendu dans le dossier du projet ne pas oublier d'installer les dépendances
+``` 
+npm install 
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Lancement
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Ce projet démarre en mode développement avec la commande (craco est utilisé ici):
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+npm run starto
+```
 
-### `npm run eject`
+Pour construire et générer les fichier html css et js, vous avez la commande (la génération se fera dnas le dossier build)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+npm run build
+```
