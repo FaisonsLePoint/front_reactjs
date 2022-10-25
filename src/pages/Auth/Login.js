@@ -7,14 +7,15 @@ import './auth.css'
 
 const Login = () => {
     let navigate = useNavigate()
-    // const [login, setLogin] = useState('')
-    // const [password, setPassword] = useState('')
+
+    // Attention ici mise en place de valeur par défaut pour travailler.
+    // NE JAMAIS FAIRE CELA
     const [credentials, setCredentials] = useState({
         email: 'roger@marcel.com',
         password: 'marcel'
     })
     
-
+    // Gestion de la modification des champs du formulaire
     const onChange = (e) => {
         setCredentials({
             ...credentials,
@@ -22,10 +23,12 @@ const Login = () => {
         })
     }
 
+    // Soumission du formulaire
     const onSubmit = (e) => {
         e.preventDefault()
         accountService.login(credentials)
             .then(res => {
+                // Sauvegarde du token et envoi vers admin
                 accountService.saveToken(res.data.access_token)
                 navigate('/admin', {replace: true})
             })

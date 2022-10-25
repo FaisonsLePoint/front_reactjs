@@ -33,3 +33,9 @@
     text-decoration: none;
     color: black;
 }
+
+/**************************************/
+.del_ubtn{
+    cursor: pointer;
+    color:red;
+}
