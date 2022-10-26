@@ -1,0 +1,13 @@
+.card_article{
+    max-width: 200px;
+    height: 200px;
+}
+
+.card_article img{
+    object-fit: cover;
+    width:100%;
+}
+
+.card_link{
+    text-decoration: none;
+}

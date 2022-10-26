@@ -1,0 +1,12 @@
+.home{
+    display:flex;
+    gap: 13px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service img{
+    height:180px;
+    width:100%;
+    object-fit: cover;
+}
